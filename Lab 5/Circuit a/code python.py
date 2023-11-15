@@ -214,7 +214,7 @@ x = np.linspace(10**0,10**3,1000)
 #def func_fitted3(x):
 #    return (x*b_fit2**2)/(((c_fit2+x)**2)+(-0.001**2))*1000
 
-print(b_fit1, c_fit1, b_fit2, c_fit2, d_fit2)
+#print(b_fit1, c_fit1, b_fit2, c_fit2, d_fit2)
 
 fig, ax = plt.subplots()
 plt.xscale("log")
